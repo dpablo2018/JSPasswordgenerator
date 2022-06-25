@@ -31,10 +31,10 @@ function generatePassword(){
   /*
   Made an if statement when the user enters a value smaller than 8 charcters.
   Made another if statement for the opposite, when the charcter limit is over 128.
-  Created multiple if statments for: numbers, uppercase,etc. 
+  
   Made a loop for the random password generator. 
   */
-  
+}
 
   if (passwordLength< 8){
     confirm("It has to be 8 charcters long")
@@ -80,7 +80,7 @@ function generatePassword(){
   passwordText.value = password;
 
 }
-}
+
 
 
 
