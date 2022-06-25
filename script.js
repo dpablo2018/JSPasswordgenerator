@@ -14,27 +14,19 @@ function generatePassword(){
   var lowerCaseCharacter = [ "a" , "b" , "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
   var text = [];
 
+  /*
+  Create a prompt to make a window pop up with a message
+  
+
+  */
   var passwordLength = prompt ("How many characters do you want between 8 and 128?");
   var passwordCharacter = parseInt(passwordLength);     
   var numberCh = confirm ("Do you want  a number?");
   var uppercaseCh = confirm ("Do you want an uppercase in your password?");
   var lowercaseCh= confirm ("Do you want a lowercase in your password?");
   var charactersCh = confirm (" Do you want a special character in your password?");
-  /*
-  if (passwordLength< 8){
-    confirm("It has to be 8 charcters long")
-    return
-  }
-  if (passwordLength>128){
-    confirm("It has to be shorter than 128 charcters")
-    return
-  }
+  
 
-  var numberCh = confirm ("Do you want  a number?");
-  var uppercaseCh = confirm ("Do you want an uppercase in your password?");
-  var lowercaseCh= confirm ("Do you want a lowercase in your password?");
-  var charactersCh = confirm (" Do you want a special character in your password?");
-  */
   if (passwordLength< 8){
     confirm("It has to be 8 charcters long")
     return
