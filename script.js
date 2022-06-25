@@ -16,8 +16,9 @@ function generatePassword(){
 
   /*
   Create a prompt to make a window pop up with a message
-  
-
+  Create the parseInt to make the string into a number value
+  Made confirm windows to pop up the criteria for the challenge
+  Of course, theyre all assigned to variables.
   */
   var passwordLength = prompt ("How many characters do you want between 8 and 128?");
   var passwordCharacter = parseInt(passwordLength);     
