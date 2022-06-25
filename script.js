@@ -26,6 +26,13 @@ function generatePassword(){
   var uppercaseCh = confirm ("Do you want an uppercase in your password?");
   var lowercaseCh= confirm ("Do you want a lowercase in your password?");
   var charactersCh = confirm (" Do you want a special character in your password?");
+
+  /*
+  Made an if statement when the user enters a value smaller than 8 charcters.
+  Made another if statement for the opposite, when the charcter limit is over 128.
+  
+
+  */
   
 
   if (passwordLength< 8){
