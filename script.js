@@ -20,6 +20,7 @@ function generatePassword(){
   Made confirm windows to pop up the criteria for the challenge
   Of course, theyre all assigned to variables.
   */
+
   var passwordLength = prompt ("How many characters do you want between 8 and 128?");
   var passwordCharacter = parseInt(passwordLength);     
   var numberCh = confirm ("Do you want  a number?");
@@ -30,8 +31,8 @@ function generatePassword(){
   /*
   Made an if statement when the user enters a value smaller than 8 charcters.
   Made another if statement for the opposite, when the charcter limit is over 128.
-  
-
+  Created multiple if statments for: numbers, uppercase,etc. 
+  Made a loop for the random password generator. 
   */
   
 
